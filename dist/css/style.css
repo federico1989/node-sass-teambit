@@ -16,14 +16,21 @@ body {
   display: flex;
 }
 
+.p-top {
+  padding-top: 80px;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #58402c;
+}
+
 #site_header {
   height: 80px;
   width: 100%;
 }
 #site_header nav {
-  padding-top: 20px;
+  padding: 20px;
   margin: auto;
-  border-bottom: 1px solid #58402c;
   padding-bottom: 20px;
   justify-content: space-between;
 }
@@ -67,7 +74,7 @@ body {
 }
 #site_main .jumbotron {
   margin: auto;
-  padding-top: 100px;
+  padding: 100px 0 80px 0;
   flex-wrap: wrap;
 }
 #site_main .jumbotron .menu_jumbo {
@@ -124,7 +131,7 @@ body {
   padding-bottom: 60px;
 }
 #site_main .section_traditional .traditional_menu .traditional_text h2 {
-  padding: 0 250px 50px 250px;
+  padding: 0 200px 50px 200px;
   font-size: 35px;
 }
 #site_main .section_traditional .traditional_menu .traditional_cards {
@@ -142,13 +149,15 @@ body {
 #site_main .section_traditional .traditional_menu .traditional_cards .card .nofeedback {
   padding-bottom: 37px;
 }
+#site_main .section_traditional .traditional_menu .traditional_cards .card .cat_card {
+  width: 100px;
+}
 #site_main .section_traditional .traditional_menu .traditional_cards .card img {
   width: 200px;
 }
 #site_main .section_traditional .traditional_menu .traditional_bunny {
   padding: 100px 0 100px 0;
   justify-content: center;
-  border-bottom: 1px solid #58402c;
 }
 #site_main .section_traditional .traditional_menu .traditional_bunny img {
   width: 400px;
