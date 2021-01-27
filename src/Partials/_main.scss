@@ -1,0 +1,49 @@
+#site_main {
+    height: 800px;
+    width: 100%;
+    .jumbotron {
+        height: 550px;
+        margin: auto;
+        padding-top: 100px;
+        .menu_jumbo {
+            width: 50%;
+            h1 {
+                font-size: 55px;
+                color: $colorbrown;
+            }
+            p {
+                font-size: 25px;
+                color: $colorbrown;
+            }
+            .sign_up {
+                padding: 60px 0 40px 0;
+                width: 100%;
+                .btn-small {
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                    border: 1px solid $colorblue;
+                    background-color: $colorblue;
+                    color: white;
+                    text-decoration: none;
+                    img {
+                        width: 25px;
+                        padding-right: 5px;
+                    }
+                }
+            }
+            a {
+                text-decoration: none;
+                color: $colorbrown;
+                i {
+                    padding: 5px;
+                }
+            }
+        }
+        .img_jumbo {
+            width: 50%;
+            background-image: url("../img/illustration-main.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+}
