@@ -57,6 +57,9 @@ body {
   width: 25px;
   padding-right: 5px;
 }
+#site_header nav .navigation_mobile {
+  display: none;
+}
 
 #site_main {
   height: 2000px;
@@ -66,8 +69,10 @@ body {
   height: 550px;
   margin: auto;
   padding-top: 100px;
+  flex-wrap: wrap;
 }
 #site_main .jumbotron .menu_jumbo {
+  flex-wrap: wrap;
   width: 50%;
 }
 #site_main .jumbotron .menu_jumbo h1 {
@@ -102,6 +107,7 @@ body {
   padding: 5px;
 }
 #site_main .jumbotron .img_jumbo {
+  flex-wrap: wrap;
   width: 50%;
   background-image: url("../img/illustration-main.jpg");
   background-repeat: no-repeat;
@@ -127,4 +133,17 @@ body {
 }
 #site_main .section_traditional .traditional_menu .traditional_cards .card img {
   width: 200px;
+}
+
+@media only screen and (max-width: 998px) {
+  #site_header nav .navigation_mobile {
+    display: block;
+  }
+  #site_header nav .navigation {
+    display: none;
+  }
+
+  #site_main .menu_jumbo, #site_main .img_jumbo {
+    width: 100%;
+  }
 }

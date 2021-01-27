@@ -1,0 +1,17 @@
+@media only screen and (max-width: 998px) {
+  #site_header {
+      nav {
+        .navigation_mobile {
+            display: block;
+        }
+        .navigation {
+            display: none;
+        }
+      } 
+    }
+  #site_main {
+    .menu_jumbo, .img_jumbo {
+      width: 100%;
+    }
+  }
+}
