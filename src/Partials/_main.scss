@@ -1,5 +1,5 @@
 #site_main {
-    height: 800px;
+    height: 2000px;
     width: 100%;
     .jumbotron {
         height: 550px;
@@ -44,6 +44,27 @@
             background-image: url("../img/illustration-main.jpg");
             background-repeat: no-repeat;
             background-size: 100%;
+        }
+    }
+    .section_traditional {
+        background-color: $colorpink;
+        height: 500px;
+        padding-top: 80px;
+        .traditional_menu {
+            margin: auto;
+            .traditional_text {
+                color: $colorbrown;
+                width: 65%;
+            }
+            .traditional_cards {
+               width: 100%;
+               .card {
+                   width: calc(100% / 3);
+                   img {
+                       width: 200px;
+                   }
+               }
+            }
         }
     }
 }
