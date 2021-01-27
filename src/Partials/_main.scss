@@ -2,12 +2,10 @@
     height: 2000px;
     width: 100%;
     .jumbotron {
-        height: 550px;
         margin: auto;
         padding-top: 100px;
         flex-wrap: wrap;
         .menu_jumbo {
-            flex-wrap: wrap;
             width: 50%;
             h1 {
                 font-size: 55px;
@@ -42,7 +40,6 @@
             }
         }
         .img_jumbo {
-            flex-wrap: wrap;
             width: 50%;
             background-image: url("../img/illustration-main.jpg");
             background-repeat: no-repeat;
@@ -53,16 +50,25 @@
         background-color: $colorpink;
         height: 500px;
         padding-top: 80px;
+        flex-wrap: wrap;
         .traditional_menu {
             margin: auto;
             .traditional_text {
                 color: $colorbrown;
-                width: 65%;
+                text-align: center;
+                padding-bottom: 60px;
+                h2 {
+                    padding: 0 250px 50px 250px;
+                    font-size: 35px;
+                }
             }
             .traditional_cards {
                width: 100%;
+               flex-wrap: wrap;
                .card {
+                   text-align: center;
                    width: calc(100% / 3);
+                   padding-bottom: 20px;
                    img {
                        width: 200px;
                    }

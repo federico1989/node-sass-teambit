@@ -10,8 +10,30 @@
       } 
     }
   #site_main {
-    .menu_jumbo, .img_jumbo {
-      width: 100%;
+    .jumbotron {
+      .menu_jumbo, .img_jumbo {
+        width: 100%;
+      }
+      .img_jumbo {
+        height: 400px;
+      }
     }
+    .section_traditional {
+      .traditional_menu {
+          .traditional_text {
+            h2 {
+              padding: 0 0 50px 0;
+            }
+          }
+        .traditional_cards {
+          .card {
+            text-align: center;
+            width: auto;
+
+          }
+        }
+      }
+    }
+      
   }
 }
