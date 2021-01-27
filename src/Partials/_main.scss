@@ -48,7 +48,6 @@
     }
     .section_traditional {
         background-color: $colorsky;
-        height: 500px;
         padding-top: 80px;
         flex-wrap: wrap;
         .traditional_menu {
@@ -69,10 +68,24 @@
                    text-align: center;
                    width: calc(100% / 3);
                    padding-bottom: 20px;
+                   .hardcore {
+                       padding-bottom: 65px;
+                   }
+                   .nofeedback {
+                       padding-bottom: 37px;
+                   }
                    img {
                        width: 200px;
                    }
                }
+            }
+            .traditional_bunny {
+                padding: 100px 0 100px 0;
+                justify-content: center;
+                border-bottom: 1px solid $colorbrown;
+                img {
+                    width: 400px;
+                }
             }
         }
     }
